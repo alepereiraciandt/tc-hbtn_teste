@@ -9,7 +9,7 @@ public class OperacaoBasicaTeste {
     }
 
     public static boolean testar_multiplicacao() {
-        return OperacaoBasica.multiplicacar(5, 3) == 15;
+        return OperacaoBasica.multiplicar(5, 3) == 15;
     }
 
     public static boolean testar_divisao() {

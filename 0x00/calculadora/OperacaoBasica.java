@@ -10,7 +10,7 @@ public class OperacaoBasica {
     }
 
 
-    public static double multiplicacar(double a, double b) {
+    public static double multiplicar(double a, double b) {
         return a * b;
     }
 
