@@ -5,11 +5,11 @@ public class OperacaoBasicaTeste {
     }
 
     public static boolean testar_subtracao() {
-        return OperacaoBasica.subtracao(5, 3) == 2;
+        return OperacaoBasica.subtrair(5, 3) == 2;
     }
 
     public static boolean testar_multiplicacao() {
-        return OperacaoBasica.multiplicacao(5, 3) == 15;
+        return OperacaoBasica.multiplicacar(5, 3) == 15;
     }
 
     public static boolean testar_divisao() {
