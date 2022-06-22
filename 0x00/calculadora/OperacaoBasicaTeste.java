@@ -13,6 +13,6 @@ public class OperacaoBasicaTeste {
     }
 
     public static boolean testar_divisao() {
-        return OperacaoBasica.divisao(9, 3) == 3;
+        return OperacaoBasica.dividir(9, 3) == 3;
     }
 }
