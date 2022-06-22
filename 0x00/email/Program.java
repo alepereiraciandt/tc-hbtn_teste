@@ -11,6 +11,6 @@ public class Program {
 
         System.out.println("Teste de email com mais de 50 caracteres");
         isValidEmail = TesteEmail.testar_email_mais_50_caracteres();
-        System.out.print(isValidEmail);
+        System.out.println(isValidEmail);
     }
 }
