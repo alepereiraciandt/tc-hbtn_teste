@@ -21,6 +21,11 @@ public class Person {
         this.publicServer = publicServer;
     }
 
+    public Person(String name, String surname) {
+        this.name = name;
+        this.surname = surname;
+    }
+
     public boolean isMEI() {
         int currentYear = Calendar.getInstance().get(Calendar.YEAR);
 
@@ -37,7 +42,7 @@ public class Person {
             return true;
         }
 
-        return false;
+        return true;
     }
 
     public String fullName() {
